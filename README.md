@@ -14,4 +14,4 @@ pip install -r requirements.txt
 
 ## 说明
 
-目前仅完成项目骨架，抓取脚本后续补充。
+职位抓取在 [Chapter1](Chapter1/README.md)。运行 `python Chapter1/fetch_jobs.py` 会拉取当前社招和校招职位。
