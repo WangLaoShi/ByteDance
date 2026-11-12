@@ -7,8 +7,3 @@ venv/
 dist/
 build/
 *.egg-info/
-
-# 职位明细体积大，不纳入版本库
-Chapter1/data/jobs.jsonl
-Chapter1/data/jobs.csv
-Chapter1/data/jobs.xlsx

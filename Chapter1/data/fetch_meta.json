@@ -1,0 +1,478 @@
+{
+  "fetched_at": "2026-11-12T16:12:57+08:00",
+  "total": 17089,
+  "page_size": 100,
+  "list_cap": 10000,
+  "output": "/Users/luosen/Documents/GitHub/ByteDance/Chapter1/data/jobs.jsonl",
+  "portals": [
+    {
+      "portal_type": 2,
+      "portal_name": "社招",
+      "mode": "by_category",
+      "api_count": 10000,
+      "fetched_count": 10414,
+      "capped": true,
+      "capped_categories": [],
+      "categories": [
+        {
+          "id": "6704215862603155720",
+          "name": "研发",
+          "api_count": 4506,
+          "fetched_count": 4506
+        },
+        {
+          "id": "6704215862557018372",
+          "name": "后端",
+          "api_count": 1208,
+          "fetched_count": 1208
+        },
+        {
+          "id": "6704215886108035339",
+          "name": "前端",
+          "api_count": 221,
+          "fetched_count": 221
+        },
+        {
+          "id": "6704215888985327886",
+          "name": "大数据",
+          "api_count": 95,
+          "fetched_count": 95
+        },
+        {
+          "id": "6704215897130666254",
+          "name": "测试",
+          "api_count": 163,
+          "fetched_count": 163
+        },
+        {
+          "id": "6704215956018694411",
+          "name": "算法",
+          "api_count": 787,
+          "fetched_count": 787
+        },
+        {
+          "id": "6704215957146962184",
+          "name": "客户端",
+          "api_count": 355,
+          "fetched_count": 355
+        },
+        {
+          "id": "6704215958816295181",
+          "name": "基础架构",
+          "api_count": 212,
+          "fetched_count": 212
+        },
+        {
+          "id": "6704215963966900491",
+          "name": "多媒体",
+          "api_count": 19,
+          "fetched_count": 19
+        },
+        {
+          "id": "6704216109274368264",
+          "name": "安全",
+          "api_count": 111,
+          "fetched_count": 111
+        },
+        {
+          "id": "6704216296701036811",
+          "name": "计算机视觉",
+          "api_count": 16,
+          "fetched_count": 16
+        },
+        {
+          "id": "6704216635923761412",
+          "name": "数据挖掘",
+          "api_count": 10,
+          "fetched_count": 10
+        },
+        {
+          "id": "6704217321877014787",
+          "name": "运维",
+          "api_count": 93,
+          "fetched_count": 93
+        },
+        {
+          "id": "6704219452277262596",
+          "name": "自然语言处理",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6704219534724696331",
+          "name": "机器学习",
+          "api_count": 68,
+          "fetched_count": 68
+        },
+        {
+          "id": "6938376045242353957",
+          "name": "硬件",
+          "api_count": 179,
+          "fetched_count": 179
+        },
+        {
+          "id": "6704215882479962371",
+          "name": "运营",
+          "api_count": 2437,
+          "fetched_count": 2437
+        },
+        {
+          "id": "6704215882438019342",
+          "name": "商业运营",
+          "api_count": 141,
+          "fetched_count": 141
+        },
+        {
+          "id": "6704215908782442766",
+          "name": "审核",
+          "api_count": 9,
+          "fetched_count": 9
+        },
+        {
+          "id": "6704215955154667787",
+          "name": "用户运营",
+          "api_count": 87,
+          "fetched_count": 87
+        },
+        {
+          "id": "6704215961064442123",
+          "name": "内容运营",
+          "api_count": 9,
+          "fetched_count": 9
+        },
+        {
+          "id": "6704216001937934599",
+          "name": "频道运营",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6704216057269192973",
+          "name": "产品运营",
+          "api_count": 158,
+          "fetched_count": 158
+        },
+        {
+          "id": "6704216853931100430",
+          "name": "销售运营",
+          "api_count": 8,
+          "fetched_count": 8
+        },
+        {
+          "id": "6704217437631416580",
+          "name": "编辑",
+          "api_count": 8,
+          "fetched_count": 8
+        },
+        {
+          "id": "6704219199050352903",
+          "name": "内容引进",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6709824273306880267",
+          "name": "客服",
+          "api_count": 23,
+          "fetched_count": 23
+        },
+        {
+          "id": "6850051246221429006",
+          "name": "游戏运营",
+          "api_count": 16,
+          "fetched_count": 16
+        },
+        {
+          "id": "6863074795655792910",
+          "name": "项目管理",
+          "api_count": 65,
+          "fetched_count": 65
+        },
+        {
+          "id": "6704215864629004552",
+          "name": "产品",
+          "api_count": 1787,
+          "fetched_count": 1787
+        },
+        {
+          "id": "6704215864591255820",
+          "name": "产品经理",
+          "api_count": 669,
+          "fetched_count": 669
+        },
+        {
+          "id": "6704215924712409352",
+          "name": "商业产品（广告）",
+          "api_count": 60,
+          "fetched_count": 60
+        },
+        {
+          "id": "6704216224387041544",
+          "name": "数据分析",
+          "api_count": 214,
+          "fetched_count": 214
+        },
+        {
+          "id": "6704215913488451847",
+          "name": "职能 / 支持",
+          "api_count": 684,
+          "fetched_count": 684
+        },
+        {
+          "id": "6704215913454897421",
+          "name": "法务",
+          "api_count": 14,
+          "fetched_count": 14
+        },
+        {
+          "id": "6704216232129726734",
+          "name": "战略",
+          "api_count": 71,
+          "fetched_count": 71
+        },
+        {
+          "id": "6704216386916321540",
+          "name": "人力",
+          "api_count": 167,
+          "fetched_count": 167
+        },
+        {
+          "id": "6704216480889702664",
+          "name": "财务",
+          "api_count": 98,
+          "fetched_count": 98
+        },
+        {
+          "id": "6704216727414114564",
+          "name": "行政设施",
+          "api_count": 7,
+          "fetched_count": 7
+        },
+        {
+          "id": "6704217005358057732",
+          "name": "IT支持",
+          "api_count": 32,
+          "fetched_count": 32
+        },
+        {
+          "id": "6704219468463081735",
+          "name": "采购",
+          "api_count": 63,
+          "fetched_count": 63
+        },
+        {
+          "id": "6704219470161774852",
+          "name": "投资",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6850051245856524558",
+          "name": "内审",
+          "api_count": 22,
+          "fetched_count": 22
+        },
+        {
+          "id": "6709824272505768200",
+          "name": "销售",
+          "api_count": 549,
+          "fetched_count": 549
+        },
+        {
+          "id": "6704215938645887239",
+          "name": "销售",
+          "api_count": 255,
+          "fetched_count": 255
+        },
+        {
+          "id": "6704215966085024003",
+          "name": "销售支持",
+          "api_count": 27,
+          "fetched_count": 27
+        },
+        {
+          "id": "6709824272459630861",
+          "name": "销售专员",
+          "api_count": 6,
+          "fetched_count": 6
+        },
+        {
+          "id": "6709824273038444807",
+          "name": "销售管理",
+          "api_count": 3,
+          "fetched_count": 3
+        },
+        {
+          "id": "6709824272514156812",
+          "name": "设计",
+          "api_count": 241,
+          "fetched_count": 241
+        },
+        {
+          "id": "6704216194292910348",
+          "name": "UI",
+          "api_count": 6,
+          "fetched_count": 6
+        },
+        {
+          "id": "6704216380595505421",
+          "name": "平面设计",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6704216925762750724",
+          "name": "交互设计",
+          "api_count": 31,
+          "fetched_count": 31
+        },
+        {
+          "id": "6709824272627403020",
+          "name": "视觉设计",
+          "api_count": 10,
+          "fetched_count": 10
+        },
+        {
+          "id": "6709824272996501772",
+          "name": "用户研究",
+          "api_count": 19,
+          "fetched_count": 19
+        },
+        {
+          "id": "6709824273332046088",
+          "name": "多媒体设计",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6709824273608870155",
+          "name": "3D动效",
+          "api_count": 1,
+          "fetched_count": 1
+        },
+        {
+          "id": "6850051246036879630",
+          "name": "游戏美术",
+          "api_count": 38,
+          "fetched_count": 38
+        },
+        {
+          "id": "6704215901438216462",
+          "name": "市场",
+          "api_count": 179,
+          "fetched_count": 179
+        },
+        {
+          "id": "6704215901392079117",
+          "name": "广告投放",
+          "api_count": 15,
+          "fetched_count": 15
+        },
+        {
+          "id": "6704216021651163395",
+          "name": "营销策划",
+          "api_count": 9,
+          "fetched_count": 9
+        },
+        {
+          "id": "6704216386178124040",
+          "name": "PR",
+          "api_count": 1,
+          "fetched_count": 1
+        },
+        {
+          "id": "6704216430973290760",
+          "name": "品牌",
+          "api_count": 1,
+          "fetched_count": 1
+        },
+        {
+          "id": "6704216870330829070",
+          "name": "政府关系",
+          "api_count": 2,
+          "fetched_count": 2
+        },
+        {
+          "id": "6704216950135851275",
+          "name": "商务拓展BD",
+          "api_count": 40,
+          "fetched_count": 40
+        },
+        {
+          "id": "6704217388763580683",
+          "name": "媒介公关",
+          "api_count": 3,
+          "fetched_count": 3
+        },
+        {
+          "id": "6850051244971526414",
+          "name": "游戏策划",
+          "api_count": 31,
+          "fetched_count": 31
+        },
+        {
+          "id": "6850051245139298567",
+          "name": "游戏系统策划",
+          "api_count": 2,
+          "fetched_count": 2
+        },
+        {
+          "id": "6850051245315459342",
+          "name": "游戏数值策划",
+          "api_count": 1,
+          "fetched_count": 1
+        },
+        {
+          "id": "6850051245500008718",
+          "name": "游戏剧情策划",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6850051245680363783",
+          "name": "游戏音频策划",
+          "api_count": 1,
+          "fetched_count": 1
+        },
+        {
+          "id": "6794746007419619592",
+          "name": "教研教学",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6794746007788718350",
+          "name": "教研",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6794746008191371528",
+          "name": "主讲",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6794746008547887367",
+          "name": "课程辅导",
+          "api_count": 0,
+          "fetched_count": 0
+        },
+        {
+          "id": "6794746008740825352",
+          "name": "教务管理",
+          "api_count": 0,
+          "fetched_count": 0
+        }
+      ]
+    },
+    {
+      "portal_type": 3,
+      "portal_name": "校招",
+      "mode": "direct",
+      "api_count": 6675,
+      "fetched_count": 6675,
+      "capped": false
+    }
+  ]
+}
