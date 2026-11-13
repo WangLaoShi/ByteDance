@@ -36,6 +36,8 @@
 ```bash
 python Chapter1/fetch_jobs.py
 python Chapter1/export_jobs.py
+python Chapter1/fetch_settings.py
+python Chapter1/fetch_filters.py
 ```
 
 结果：
@@ -44,8 +46,12 @@ python Chapter1/export_jobs.py
 - `Chapter1/data/fetch_meta.json`：最后抓取时间、分渠道条数、社招各类别条数
 - `Chapter1/data/jobs.csv`：同一份职位的 CSV
 - `Chapter1/data/jobs.xlsx`：同一份职位的 Excel
+- `Chapter1/data/settings.csv`：简历和表单共用枚举。列是 `dict_name`、`key`、`label`，手机区号另有国家名和拼音，币种另有英文代码。不并入职位表
+- `Chapter1/data/job_categories.csv`：社招、校招各自的职位类别。`filter_count` 只是筛选项上的计数，不是抓到的职位条数
+- `Chapter1/data/cities.csv`：两个渠道各自可选的城市
+- `Chapter1/data/job_subjects.csv`：招聘项目，目前只有校招有
 
-`publish_time` 是毫秒时间戳。
+`publish_time` 是毫秒时间戳。`job_categories.csv` 会在 [Chapter2](../Chapter2/README.md) 里用来确定职位大类和细类。
 
 ## 本次结果
 

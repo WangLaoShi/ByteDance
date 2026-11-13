@@ -1,2 +1,5 @@
 requests
 openpyxl
+pandas
+date-dimensions
+address-dimensions @ git+https://github.com/WangLaoShi/address-dimensions.git

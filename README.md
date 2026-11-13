@@ -1,10 +1,10 @@
 # ByteDance
 
-字节职位分析的小项目。使用 Python Requests 抓取字节跳动招聘职位，后续再逐步完善分析与整理。
+字节职位分析。先抓取招聘职位和筛选项，再清洗成可供 QuickBI 使用的工作簿。
 
 ## 环境
 
-Python 3
+Python 3.10 及以上。
 
 ## 安装
 
@@ -12,6 +12,14 @@ Python 3
 pip install -r requirements.txt
 ```
 
-## 说明
+`address-dimensions` 从 Git 安装。若 HTTPS 克隆失败，改用 SSH：
 
-职位抓取在 [Chapter1](Chapter1/README.md)。运行 `python Chapter1/fetch_jobs.py` 会拉取当前社招和校招职位。
+```bash
+pip install "address-dimensions @ git+ssh://git@github.com/WangLaoShi/address-dimensions.git"
+```
+
+## 章节
+
+- [Chapter1](Chapter1/README.md)：抓取社招、校招职位，以及设置枚举和筛选项。
+- [Chapter2](Chapter2/README.md)：清洗职位表，输出 QuickBI 工作簿和清洗说明。
+- Chapter3、Chapter4：尚未开始。
